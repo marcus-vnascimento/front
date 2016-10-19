@@ -1,0 +1,24 @@
+.container-top{
+	width: 100%;
+	margin: 0 auto 20px;
+}
+
+.top {
+	background: #ffffff;
+	width: 100%;
+	padding: 8px;
+	border-radius: 5px;
+	
+	/* X Y Blur Cor */
+	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15); 
+	
+	/*tempo em segundos, efeito*/
+	transition: 0.2s ease-in;
+	
+	/*Boa prática, para carregamento individual*/
+	will-change: box-shadow, transform;
+
+	animation: show 0.2s ease-in;
+	
+}
+

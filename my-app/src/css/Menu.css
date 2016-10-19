@@ -1,0 +1,42 @@
+.header-menu{
+    display: flex;
+    right: 3em;
+    position: absolute;
+    padding: 15px;
+}
+
+.main-menu{
+    width: auto;
+    min-height: 150px;
+    
+}
+
+.header-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu li{
+    margin: 0 0.15em;
+}
+
+.header-menu li a {
+    width: auto;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu-item1{
+    align-self: flex-start;
+}
+
+.menu-item2{
+    align-self: center;
+}
+
+.menu-item3{
+    align-self: stretch;
+}
